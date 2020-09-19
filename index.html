@@ -1,1 +1,64 @@
-<h1>This is a test!</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+        <title>Alexander Redding</title>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <span class='menu'> <!-- Scrolling menu  -->
+            <div class='menuLinks'>
+                <a href='#about' id='aboutMenu'>About</a>
+                <a href='#projects' id='projectsMenu'>Projects</a>
+                <a href='#contact' id='contactMenu'>Contact</a>
+            </div>
+        </span>
+        <div class='helloBody'>
+            <h1 class='helloText'>Hello,<br>my name is</h1>
+            <h1 class='helloName'>Alexander<br>Redding</h1>
+            <img class='photo' src='PortfolioPhoto.png' alt='A photo of Alexander Redding'>
+        </div>
+        <div id='about' class='about'>
+            <div class='aboutText'>
+                <h2 class='aboutTitle'>I'm a Northwestern undergrad who</h2>
+                <div class='aboutList'>
+                        <p class='aboutElem'>appreciates great design</p>
+                        <p class='aboutElem'>likes to solve big problems</p>
+                        <p class='aboutElem'>always wants to learn more</p>
+                        <p class='aboutElem'>and loves to tinker.</p>
+                </div>
+            </div>
+        </div>
+        <div id='projects' class='projects'>
+            <div class='projectContent'>
+                <a href='https://ezbite.io' target='_blank'><h2 class='ezbiteTitle'>ezbite.io</h2></a>
+                <p class='ezbiteInfo'>
+                    Built on the Google Firebase platform 
+                    and using the Google Maps API, I
+                    created a web app to help Northwestern
+                    students discover new restaurants in
+                    Evanston, IL.<br>
+                    Continuously being improved from
+                    student feedback.<br><br>
+                    Built with HTML5, CSS, JavaScript
+                </p>
+            </div>
+        </div>
+        <div id='github' class='github'>  <!-- ADD GITHUB LINK -->
+            <div class='githubContent'>
+                <span>Check out my <a href='https://github.com/alexredd99' target='_blank' class='githubLink'>GitHub</a></span>
+            </div>
+        </div>
+        <div id='contact' class='contact'>
+            <div class='contactInfo'>
+                <h2 class='contactHeader'>Say hello</h2>
+                <div class='contactElem'>alexredd99@gmail.com</div>   <!-- TURN INTO LINKS -->
+                <div class='contactElem'>(309) 550-1909</div>
+                <div class='contactElem'>linkedin.com/in/alexanderredding/</div>
+            </div>
+        </div>
+    </body>
+    <link rel='stylesheet' type='text/css' href='/style.css' media='screen'>
+</html>
