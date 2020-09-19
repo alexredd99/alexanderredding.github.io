@@ -163,32 +163,6 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-    .menu{
-        z-index: 1; /* Stay on top */
-        top: 25em;
-        left: 100em;
-        width: 300px;
-        background: none;
-        overflow-x: hidden;
-    }
-    .menuLinks{
-        flex-direction: column;
-        font-size: 60px;
-        font-weight: 400;
-        border: none;
-        align-items: flex-start;
-        
-    }
-
-    .aboutText, .projectContent, .contactInfo, .helloBody {
-        margin-left: 1.5em;
-        margin-right: 1.5em;
-    }
-
-    .helloBody {
-        margin-top: 1em;
-    }
-    
     .helloText{
         font-size: 60px;
     }
@@ -199,36 +173,5 @@ body {
 
     .photo {
         width: 400px;
-    }
-
-    .aboutTitle{
-        font-size: 60px;
-        align-self: flex-start;
-    }
-
-    .aboutElem {
-        font-size: 40px;
-    }
-
-    .ezbiteTitle {
-        font-size: 60px;
-    }
-
-    .ezbiteInfo {
-        font-size: 40px;
-        width: 38em;
-        padding-left: 2em;
-    }
-
-    .githubContent {
-        font-size: 60px;
-    }
-
-    .contactHeader {
-        font-size: 60px;
-    }
-
-    .contactElem {
-        font-size: 20px;
     }
 }
